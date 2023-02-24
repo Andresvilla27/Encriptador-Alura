@@ -10,6 +10,145 @@ body{
     height: 650px;
     padding: 5px;
 }
+@media (min-width: 576px){
+    #btn-encriptar{
+        padding: 18px;
+        width: 30%;
+        height: 40%;
+        border-radius: 20px;
+        margin-left: 15%;
+        background: #0A3871;
+        box-shadow: 4px 4px #c0c0c0;
+    }
+    #btn-desencriptar{
+        padding: 18px;
+        width: 30%;
+        height: 40%;
+        border-radius: 20px;
+        margin-left: 15%;
+        background: #d8dfe8;
+        box-shadow: 4px 4px #c0c0c0;
+    }
+    
+    #texto2{
+        padding: 10px;
+        float: left;
+        margin-left: 10%;
+        color:#0A3871;
+        width: 80%;
+        height: 60%;
+        border: none;
+        outline: none;
+        font-size: 15px;
+    }
+    #copiar{
+        margin-left: 33%;
+        margin-top: 5%;
+        padding: 10px;
+        width: 40%;
+        height: 10%;
+        background: #d8dfe8;
+        border-radius: 24px;
+        display: none;
+    }
+}
+@media(max-width: 575px){
+    .container{
+        width: 450px;
+        height: 320px;
+    }
+    #btn-encriptar{
+        padding: 15px;
+        width: 30%;
+        height: 40%;
+        border-radius: 20px;
+        margin-left: 8%;
+        background: #0A3871;
+        box-shadow: 4px 4px #c0c0c0;
+    }
+    #btn-desencriptar{
+        padding: 15px;
+        width: 35%;
+        height: 40%;
+        border-radius: 20px;
+        margin-left: 8%;
+        background: #d8dfe8;
+        box-shadow: 4px 4px #c0c0c0;
+    }
+    #texto2{
+        padding: 10px;
+        float: left;
+        margin-left: 10%;
+        color:#0A3871;
+        width: 80%;
+        height: 60%;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        
+    }
+    #copiar{
+        margin-left: 25%;
+        margin-top: 5%;
+        padding: 10px;
+        width: 60%;
+        height: 10%;
+        background: #d8dfe8;
+        border-radius: 24px;
+        display: none;
+    }
+}
+@media(max-width: 384px){
+    .container{
+        margin-left: 13%;
+        width: 380px;
+        height: 250px;
+    }
+    .right{
+        position: absolute;
+        top: 80%;
+        margin-left: 13%;
+    }
+    #btn-encriptar{
+        padding: 10px;
+        width: 40%;
+        height: 40%;
+        border-radius: 20px;
+        margin-left: 5%;
+        background: #0A3871;
+        box-shadow: 4px 4px #c0c0c0;
+    }
+    #btn-desencriptar{
+        padding: 10px;
+        width: 40%;
+        height: 40%;
+        border-radius: 20px;
+        margin-left: 5%;
+        background: #d8dfe8;
+        box-shadow: 4px 4px #c0c0c0;
+    }
+    #texto2{
+        padding: 10px;
+        float: left;
+        margin-left: -30%;
+        color:#0A3871;
+        width: 200%;
+        border: none;
+        outline: none;
+        font-size: 15px;
+    }
+    #copiar{
+        margin-left: 32%;
+        margin-top: 5%;
+        padding: 10px;
+        width: 60%;
+        height: 10%;
+        background: #d8dfe8;
+        border-radius: 24px;
+        display: none;
+    }
+    
+}
 .logo{
     width: 100%;
     float: left;
@@ -52,28 +191,8 @@ body{
     text-align: center;
     margin: 0 5% 0 5%;
 }
-#texto2{
-    padding: 10px;
-    float: left;
-    margin-left: 10%;
-    color:#0A3871;
-    width: 80%;
-    height: 60%;
-    border: none;
-    outline: none;
-    font-size: 15px;
-    
-}
-#copiar{
-    margin-left: 33%;
-    margin-top: 5%;
-    padding: 20px;
-    width: 40%;
-    height: 10%;
-    background: #d8dfe8;
-    border-radius: 24px;
-    display: none;
-}
+
+
 .right{
     float: right;
     width: 30%;
@@ -86,22 +205,4 @@ body{
     width: 70%;
     height: auto;
     border-radius: 24px;
-}
-#btn-encriptar{
-    padding: 18px;
-    width: 30%;
-    height: 40%;
-    border-radius: 20px;
-    margin-left: 15%;
-    background: #0A3871;
-    box-shadow: 4px 4px #c0c0c0;
-}
-#btn-desencriptar{
-    padding: 18px;
-    width: 30%;
-    height: 40%;
-    border-radius: 20px;
-    margin-left: 15%;
-    background: #d8dfe8;
-    box-shadow: 4px 4px #c0c0c0;
 }
